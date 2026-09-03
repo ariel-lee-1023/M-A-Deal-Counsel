@@ -2,7 +2,7 @@
 
 An Agent Skill that turns an agent into a senior, deal-oriented **M&A counsel and transaction strategist**—capable of transaction framing, strategic analysis, process design, diligence-to-term-sheet reasoning, valuation/consideration discipline, regulatory issue spotting, governance analysis, integration planning, and restructuring comparison.
 
-It distills two complementary M&A texts: one focused on corporate control, strategic rationale, governance, and restructuring; the other on the integrated process, tools, valuation, structuring, and execution of a deal.
+It distills four complementary M&A texts: corporate control and restructuring; integrated deal process, valuation, structuring, and execution; public/private transaction law and fiduciary process; and the multi-system legal consequences of an acquisition.
 
 ## Layout
 
@@ -26,6 +26,12 @@ references/
 |---|---|
 | **Mergers, Acquisitions, and Other Restructuring Activities: An Integrated Approach to Process, Tools, Cases, and Solutions**, 10th ed. — Donald M. DePamphilis | [`reference-depamphilis-integrated-ma.md`](references/reference-depamphilis-integrated-ma.md) |
 
+### Legal doctrine and transaction architecture
+| Source | Distillation |
+|---|---|
+| **Mergers and Acquisitions Law, Theory, and Practice** — Claire A. Hill, Brian J. M. Quinn, and Steven Davidoff Solomon | [`reference-hill-quinn-ma-law-theory-practice.md`](references/reference-hill-quinn-ma-law-theory-practice.md) |
+| **The Law of Mergers and Acquisitions**, 3rd ed. — Dale A. Oesterle | [`reference-oesterle-law-of-ma.md`](references/reference-oesterle-law-of-ma.md) |
+
 ## Install
 
 Clone into your agent's skill directory. For Claude Code:
@@ -44,7 +50,7 @@ m-a-deal-counsel about <topic>             # topic index → the relevant refere
 m-a-deal-counsel for <book>                # open one distillation directly
 ```
 
-For a live deal question, provide the jurisdiction, transaction form, parties' roles, stage, and decision needed. Most substantive responses should draw on both sources: the strategic/control lens and the process/execution lens.
+For a live deal question, provide the jurisdiction, transaction form, parties' roles, stage, and decision needed. Most substantive responses should draw on two or three sources: the strategic/control lens, the process/execution lens, and the legal-doctrine lens.
 
 ## What kind of distillation this is
 
@@ -56,13 +62,13 @@ Each file carries an explicit **coverage note**. It identifies what is front-loa
 
 Strong on transaction rationale, M&A process architecture, corporate-control dynamics, valuation and premium discipline, consideration, financing, governance, integration, divestitures, distressed transactions, and cross-border issue spotting.
 
-Thinner on current jurisdiction-specific corporate, securities, competition, tax, accounting, employment, data, and sectoral law; current deal terms and financing markets; and the two image-only scanned sources noted below. `SKILL.md` instructs the agent to **name the gap and verify rather than extrapolate** when a question is current, local, or outside the corpus, and to mark which part of an answer rests on the library versus current verification.
+Thinner on current jurisdiction-specific corporate, securities, competition, tax, accounting, employment, data, and sectoral law, plus current deal terms and financing markets. `SKILL.md` instructs the agent to **name the gap and verify rather than extrapolate** when a question is current, local, or outside the corpus, and to mark which part of an answer rests on the library versus current verification.
 
 ## Source availability and provenance
 
-Built with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs), which distills multiple sources into one shared, cross-referenced library. The included Markdown sources were extracted and validated against the skill's library contract and injected-instruction scanner.
+Built with [Books-to-Skill-Refs](https://github.com/ariel-lee-1023/Books-to-Skill-Refs), which distills multiple sources into one shared, cross-referenced library. The Gaughan and DePamphilis Markdown sources were extracted directly. The Hill/Quinn and Oesterle PDFs were image-only scans, so each was rendered and OCRed in full (835 and 1,002 pages respectively), quality-checked against its title/table-of-contents pages, and then distilled. The full library is validated against the skill contract and injected-instruction scanner.
 
-The supplied PDFs *Mergers and Acquisitions Law, Theory, and Practice* (Hill, Quinn et al.) and *The Law of Mergers and Acquisitions* (Oesterle et al.) are image-only scans with no usable text layer, so their contents are not represented in the agent-loaded materials. OCR a reliable copy (or provide a text/Markdown conversion) before folding either into a new reference file and updating the router/topic index.
+OCR can introduce recognition errors, especially in case citations, section numbers, tables, and older typefaces. The two OCR-derived references preserve frameworks and decision rules rather than relying on character-perfect quotations. Consult the original scan and current primary authority before quoting or relying on any text, citation, filing threshold, legal standard, or statutory interpretation.
 
 ## License
 

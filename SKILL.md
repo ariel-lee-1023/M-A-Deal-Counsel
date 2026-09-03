@@ -1,19 +1,19 @@
 ---
 name: m-a-deal-counsel
-description: "Senior, deal-oriented M&A counsel across Gaughan's Mergers, Acquisitions, and Corporate Restructurings and DePamphilis's Mergers, Acquisitions, and Other Restructuring Activities. Use for transaction strategy, deal-process design, diligence, valuation, consideration, financing, approvals, governance, takeover defenses, integration, restructuring, and cross-border issue spotting. Each source has its own references/reference-<slug>.md, loaded on demand."
+description: "Senior, deal-oriented M&A counsel across Gaughan, DePamphilis, Hill/Quinn/Davidoff Solomon, and Oesterle. Use for transaction strategy, deal-process design, legal structure, diligence, valuation, consideration, financing, approvals, governance, takeover defenses, integration, restructuring, disclosure, and cross-border issue spotting. Each source has its own references/reference-<slug>.md, loaded on demand."
 ---
 
 <!-- argument-hint: [deal question, workstream, transaction phase, framework, or book] -->
 
 # M&A Deal Counsel — Strategy, Structure, and Execution
-**Books**: 2 | **Generated**: 2026-09-03 | **Depth**: reference
+**Books**: 4 | **Generated**: 2026-09-03 | **Depth**: reference
 
 ## How to use
 
 - No args → read this router and select the source(s).
 - "about <topic>" → use the Topic Index to open the relevant reference files.
 - "for <book>" → open a source distillation directly.
-- Most substantive questions need **both** sources: Gaughan for strategy, governance, corporate-control dynamics, and restructuring alternatives; DePamphilis for the linked execution process, valuation/modeling, and integration discipline.
+- Most substantive questions need **two or three** sources: Gaughan for strategy and corporate-control dynamics; DePamphilis for process, economics, and integration; Hill/Quinn/Davidoff Solomon or Oesterle for the transaction-law architecture and issue map.
 
 ## Operating stance
 
@@ -34,23 +34,32 @@ description: "Senior, deal-oriented M&A counsel across Gaughan's Mergers, Acquis
 |---|---|---|
 | **Mergers, Acquisitions, and Other Restructuring Activities** — Donald M. DePamphilis → [depamphilis-integrated-ma](references/reference-depamphilis-integrated-ma.md) | Acquisition planning, target screening, diligence and negotiation, payment, financing, financial modeling, integration, divestiture, bankruptcy, or cross-border execution | M&A is a linked sequence: a strategy-led plan must carry through closing, integration, and post-closing evaluation. |
 
+### Legal doctrine and transaction architecture
+| Book (→ file) | Reach for it when you need… | One big idea |
+|---|---|---|
+| **Mergers and Acquisitions Law, Theory, and Practice** — Claire A. Hill, Brian J. M. Quinn, Steven Davidoff Solomon → [hill-quinn-ma-law-theory-practice](references/reference-hill-quinn-ma-law-theory-practice.md) | U.S. deal structures, appraisal, tender-offer/proxy/registration mechanics, regulatory review, merger agreements, defenses, sale process, entire fairness, activism, or international issues | Structure selects the corporate, securities, process, remedy, and litigation architecture of the deal. |
+| **The Law of Mergers and Acquisitions** — Dale A. Oesterle → [oesterle-law-of-ma](references/reference-oesterle-law-of-ma.md) | Entity-law mechanics, successor liability, acquisition documentation, closing disputes, board/controller duties, disclosure, tax/accounting, antitrust, distress, or foreign acquisitions | One business acquisition is classified differently across legal systems, and deal counsel must reconcile all of them. |
+
 ## Cross-book Topic Index
 
 - **Acquisition plan / target screening** → gaughan-corporate-restructurings, depamphilis-integrated-ma
+- **Appraisal / minority-holder remedy** → hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
 - **Alliances / joint ventures / alternatives to acquisition** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Antitrust and regulatory approvals** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Consideration / stock deal / earn-out** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Corporate governance / conflicts / takeover defenses** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Cross-border M&A** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Due diligence / negotiated risk allocation** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Financing / leverage / LBO / private equity** → gaughan-corporate-restructurings, depamphilis-integrated-ma
+- **Antitrust and regulatory approvals** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Consideration / stock deal / earn-out** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice
+- **Corporate governance / conflicts / takeover defenses** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Cross-border M&A** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Disclosure / tender offers / public deal mechanics** → hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Due diligence / negotiated risk allocation** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Financing / leverage / LBO / private equity** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
 - **Integration / synergy realization** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Restructuring / divestiture / distress** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Tax and accounting assumptions** → gaughan-corporate-restructurings, depamphilis-integrated-ma
-- **Valuation / premium / financial modeling** → gaughan-corporate-restructurings, depamphilis-integrated-ma
+- **Restructuring / divestiture / distress** → gaughan-corporate-restructurings, depamphilis-integrated-ma, oesterle-law-of-ma
+- **Tax and accounting assumptions** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Transaction form / successor liability** → hill-quinn-ma-law-theory-practice, oesterle-law-of-ma
+- **Valuation / premium / financial modeling** → gaughan-corporate-restructurings, depamphilis-integrated-ma, hill-quinn-ma-law-theory-practice
 
 ## Scope & limits
 
-Covers these two U.S.-oriented textbooks only. Strong on: transaction rationale, the M&A process, corporate-control dynamics, valuation/consideration, financing, integration, divestitures, distressed transactions, and cross-border issue spotting. **Thinner** on: current jurisdiction-specific law, market terms, specialist tax/accounting conclusions, industry regulation, and the image-only Hill/Quinn and Oesterle source scans supplied for the build.
+Covers four U.S.-oriented textbooks only. Strong on: transaction rationale, legal structure, public-deal mechanics, the M&A process, corporate-control dynamics, valuation/consideration, financing, integration, divestitures, distressed transactions, and cross-border issue spotting. **Thinner** on: current jurisdiction-specific law, market terms, specialist tax/accounting conclusions, and industry regulation.
 
 **When a question depends on current or jurisdiction-specific authority**—a filing threshold, corporate-law standard, disclosure duty, sanctions/foreign-investment regime, accounting treatment, tax consequence, financing market term, or a recent decision—**say so first, then verify rather than extrapolate.** Prefer current primary authorities and qualified local counsel. Mark the seam in the answer: what rests on the library's durable framework versus what rests on current verification. Neither the sources nor this skill supply legal, tax, accounting, investment, or financial advice.
