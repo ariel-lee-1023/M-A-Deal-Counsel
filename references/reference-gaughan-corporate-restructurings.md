@@ -6,6 +6,10 @@
 
 Gaughan treats M&A as part of the market for corporate control, rather than as a self-justifying growth event. A sound recommendation connects the business rationale to the legal route, stakeholder incentives, governance process, consideration, financing, and post-transaction operating reality. The recurring discipline is to ask not merely whether a buyer can acquire a target, but whether the buyer can explain and realize value after paying the premium and carrying the resulting risks.
 
+**Reach for this book when you need**: a corporate-control lens on the transaction rationale, premium, takeover process, target defenses, activism, going-private and LBO conflicts, private-equity financing, divestiture, distress, governance, or valuation structure.
+
+**Coverage note**: front-loads the book's distinctive corporate-control, governance, LBO/private-equity, restructuring, valuation, and tax-structure frameworks. The 16 chapters are consolidated into twelve working blocks so the entire reference remains usable in one load. Compressed: merger-wave history, empirical results, historical transaction examples, and jurisdiction-specific legal/tax detail. Those details are context only and require current primary-authority verification before live-deal use.
+
 ## Frameworks & Structure
 
 ### 1. Transaction map: start with the economic and legal object

@@ -6,6 +6,10 @@
 
 DePamphilis organizes M&A around the work that must remain connected from strategy through post-closing evaluation. A deal is not complete at signing or closing: the acquisition plan, target selection, valuation, risk allocation, approvals, funding, and integration design are mutually dependent. Deal counsel adds the most value by making those dependencies explicit early enough to change the decision rather than merely document it.
 
+**Reach for this book when you need**: an execution spine from acquisition plan through target screening, diligence, negotiation, closing, integration, and evaluation; or a framework for valuation/modeling, consideration, financing, alliances, divestiture, distress, or cross-border workstreams.
+
+**Coverage note**: front-loads the ten-phase M&A process, the bridge from diligence to documented risk allocation, valuation/modeling, consideration, financing, and post-closing integration. The 18 chapters are consolidated into sixteen working blocks to preserve the process connections while keeping the reference loadable. Compressed: worked cases, numerical exercises, historical data, and dated U.S. legal, accounting, tax, and regulatory discussion. Use current primary authority and appropriate specialists for every live conclusion in those areas.
+
 ## Frameworks & Structure
 
 ### 1. M&A environment: distinguish motive from value
