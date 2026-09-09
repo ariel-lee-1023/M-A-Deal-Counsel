@@ -7,12 +7,12 @@ It distills four complementary M&A texts: corporate control and restructuring; i
 ## Layout
 
 ```
-SKILL.md                  # router + operating stance + cross-book topic index (always loaded)
+SKILL.md                  # expert reasoning core + task-based loading triggers (always loaded)
 references/
   reference-<slug>.md     # one dense, standalone distillation per source (loaded on demand)
 ```
 
-`SKILL.md` is the only file an agent loads automatically. It routes to the reference files, which cost nothing until opened.
+`SKILL.md` is the only file an agent loads automatically. It establishes deal judgment and working voice, then loads reference depth as the task requires.
 
 ## Sources
 
@@ -45,8 +45,8 @@ Other hosts use different roots—for example `~/.copilot/skills/`, `~/.agents/s
 ## Usage
 
 ```
-m-a-deal-counsel                           # router — pick the right source(s)
-m-a-deal-counsel about <topic>             # topic index → the relevant reference files
+m-a-deal-counsel                           # reason from the expert core
+m-a-deal-counsel about <topic>             # answer using relevant source depth
 m-a-deal-counsel for <book>                # open one distillation directly
 ```
 
@@ -72,6 +72,6 @@ OCR can introduce recognition errors, especially in case citations, section numb
 
 ## License
 
-[MIT](LICENSE)—covering the original work here: the skill structure, router, topic index, README, and distillation text as written.
+[MIT](LICENSE)—covering the original work here: the skill structure, expert core, loading guidance, README, and distillation text as written.
 
 The underlying sources retain their own terms and are not relicensed. The reference files are structural summaries of frameworks, terminology, and decision rules, not reproductions. Check the individual source before redistributing or building on it.
