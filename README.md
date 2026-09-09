@@ -12,7 +12,7 @@ references/
   reference-<slug>.md     # one dense, standalone distillation per source (loaded on demand)
 ```
 
-`SKILL.md` is the only file an agent loads automatically. It establishes deal judgment and working voice, then loads reference depth as the task requires.
+`SKILL.md` is the expert entrypoint; root `AGENTS.md` also guides work when this repository is opened as a project. It establishes deal judgment and working voice, then loads reference depth as the task requires.
 
 ## Sources
 
@@ -40,7 +40,7 @@ Clone into your agent's skill directory. For Claude Code:
 git clone https://github.com/ariel-lee-1023/M-A-Deal-Counsel.git ~/.claude/skills/m-a-deal-counsel
 ```
 
-Other hosts use different roots—for example `~/.copilot/skills/`, `~/.agents/skills/`, or `.claude/skills/` for project scope. Keep the directory name `m-a-deal-counsel` to match `name:` in `SKILL.md`.
+For another host, use its configured skill directory and keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
 
 ## Usage
 
@@ -50,7 +50,7 @@ m-a-deal-counsel about <topic>             # answer using relevant source depth
 m-a-deal-counsel for <book>                # open one distillation directly
 ```
 
-For a live deal question, provide the jurisdiction, transaction form, parties' roles, stage, and decision needed. Most substantive responses should draw on two or three sources: the strategic/control lens, the process/execution lens, and the legal-doctrine lens.
+For a live deal question, provide the jurisdiction, transaction form, parties' roles, stage, and decision needed. Load only the source depth that bears on that decision. Combine strategic/control, process/execution, and legal-doctrine sources when the issue crosses those layers; there is no minimum source count.
 
 ## What kind of distillation this is
 
