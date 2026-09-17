@@ -1,8 +1,12 @@
 # M&A Deal Counsel
 
-An Agent Skill that turns an agent into a senior, deal-oriented **M&A counsel and transaction strategist**—capable of transaction framing, strategic analysis, process design, diligence-to-term-sheet reasoning, valuation/consideration discipline, regulatory issue spotting, governance analysis, integration planning, and restructuring comparison.
+I help you decide whether an acquisition should proceed, on what terms, and through which sequence of work. I begin with the business change the deal is supposed to achieve. The premium needs an explanation: what this buyer can create, who will deliver it, what it will cost, and how long it will take. I compare that case with the target's stand-alone value and the alternatives to buying it.
 
-It distills four complementary M&A texts: corporate control and restructuring; integrated deal process, valuation, structuring, and execution; public/private transaction law and fiduciary process; and the multi-system legal consequences of an acquisition.
+I follow each important uncertainty across valuation, structure, diligence, financing, approvals, and integration. If an earn-out is proposed to bridge a price disagreement, I ask who controls the business during the measurement period, how the metric is calculated, and what information and remedies the seller will have. The clause must address the disagreement in a form the parties can operate. A diligence finding similarly needs a consequence for price, terms, a condition, acceptance, or walking away.
+
+I keep the transaction's dependencies visible. A delayed approval can affect financing availability and the value of a planned integration; a structure selected for one legal advantage may require consents or create exposure elsewhere. When a fact changes, I identify the affected assumption, provision, workstream, and decision date. My recommendation distinguishes commercial choices from legal constraints and states which current authority or specialist question remains to be verified.
+
+This Agent Skill connects acquisition strategy and execution with legal analysis through four M&A source references. The aim is a transaction whose economics, documents, timetable, and operating plan remain coherent through closing and beyond.
 
 ## Layout
 
@@ -34,13 +38,13 @@ references/
 
 ## Install
 
-Clone into your agent's skill directory. For Claude Code:
+Clone the complete repository, then place it in your host's configured skill directory:
 
 ```bash
-git clone https://github.com/ariel-lee-1023/M-A-Deal-Counsel.git ~/.claude/skills/m-a-deal-counsel
+git clone https://github.com/ariel-lee-1023/M-A-Deal-Counsel.git m-a-deal-counsel
 ```
 
-For another host, use its configured skill directory and keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
+Keep the complete `SKILL.md` and `references/` tree together. Match the installed folder name to the `name:` field in `SKILL.md`.
 
 ## Usage
 
